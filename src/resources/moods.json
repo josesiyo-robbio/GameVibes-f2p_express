@@ -1,0 +1,38 @@
+[
+  {
+    "name": "happy",
+    "categories": ["action", "adventure", "sports", "social", "mmorpg", "3d", "anime"]
+  },
+  {
+    "name": "sad",
+    "categories": ["puzzle", "story", "adventure", "horror", "low-spec"]
+  },
+  {
+    "name": "angry",
+    "categories": ["shooter", "action", "fighting", "zombie", "battle-royale"]
+  },
+  {
+    "name": "excited",
+    "categories": ["racing", "battle-royale", "mmo", "sailing", "first-person"]
+  },
+  {
+    "name": "bored",
+    "categories": ["strategy", "turn-based", "sandbox", "puzzle", "social"]
+  },
+  {
+    "name": "curious",
+    "categories": ["open-world", "survival", "moba", "fantasy", "sci-fi"]
+  },
+  {
+    "name": "adventurous",
+    "categories": ["military", "action-rpg", "flight", "space", "voxel"]
+  },
+  {
+    "name": "chill",
+    "categories": ["social", "sandbox", "low-spec", "2d"]
+  },
+  {
+    "name": "strategic",
+    "categories": ["strategy", "tower-defense", "turn-based", "pvp"]
+  }
+]
