@@ -1,5 +1,6 @@
 
 
+
 const GameRecommendationService = require('../service/gameRecommendationService');
 const gameRecommendationService = new GameRecommendationService();
 
@@ -13,10 +14,10 @@ const GameVibes =
             console.log(apiUrl);
             return apiUrl;
         }
-        catch (error)
+        catch (error) 
         {
-            console.error('Error:', error);
-            throw error;
+            console.error('Error while selecting recommendations URL:', { mood, hour, error: error.message });
+            throw new Error('Failed to retrieve recommendations URL'); 
         }
     }
 }
