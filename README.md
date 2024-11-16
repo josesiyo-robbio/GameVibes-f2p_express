@@ -1,5 +1,5 @@
 
-# Game Vibes API
+# Game Vibes
 
 ## Overview
 A RESTful API built with Express.js that provides game recommendations based on your mood and the current hour. The API fetches data from the **Free To Game** API to give personalized game suggestions based on the user's emotional state and the time of day.
